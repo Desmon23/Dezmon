@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pisang Goreng Maknyus</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fef9c3;
+      color: #333;
+    }
+    header {
+      background-color: #f59e0b;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      color: white;
+      font-size: 2rem;
+      margin: 0;
+    }
+    header p {
+      color: white;
+      margin: 5px 0 0;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      font-size: 1.1rem;
+    }
+    .btn {
+      background-color: #f59e0b;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn:hover {
+      background-color: #d97706;
+    }
+    .menu {
+      background-color: white;
+      text-align: center;
+    }
+    .menu h3 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background-color: #fef3c7;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .menu-item h4 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    .about, .contact {
+      text-align: center;
+    }
+    .contact {
+      background-color: #f59e0b;
+      color: white;
+    }
+    footer {
+      background-color: #d97706;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Pisang Goreng Maknyus</h1>
+    <p>Cemilan hangat, renyah, dan manis khas nusantara</p>
+  </header>  <!-- Hero Section -->  <section class="hero">
+    <h2>Renyah di Luar, Lembut di Dalam</h2>
+    <p>Kami menghadirkan pisang goreng terbaik dengan resep tradisional dan kualitas bahan pilihan. Cocok untuk teman ngopi atau sekedar camilan sore.</p>
+    <button class="btn" onclick="pesanSekarang()">Pesan Sekarang</button>
+  </section>  <!-- Menu Section -->  <section class="menu">
+    <h3>Menu Pisang Goreng</h3>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h4>Pisang Goreng Original</h4>
+        <p>Rasa klasik renyah dan manis alami.</p>
+        <p><b>Rp5.000</b></p>
+      </div>
+      <div class="menu-item">
+        <h4>Pisang Goreng Coklat</h4>
+        <p>Lelehan coklat manis di setiap gigitan.</p>
+        <p><b>Rp7.000</b></p>
+      </div>
+      <div class="menu-item">
+        <h4>Pisang Goreng Keju</h4>
+        <p>Paduan gurih keju dengan pisang manis.</p>
+        <p><b>Rp8.000</b></p>
+      </div>
+    </div>
+  </section>  <!-- About Section -->  <section class="about">
+    <h3>Tentang Kami</h3>
+    <p>Usaha "Pisang Goreng Maknyus" dimulai dari dapur kecil dengan semangat menghadirkan jajanan tradisional yang tetap digemari semua generasi. Kami menjaga cita rasa asli dengan bahan segar dan minyak berkualitas.</p>
+  </section>  <!-- Contact Section -->  <section class="contact">
+    <h3>Hubungi Kami</h3>
+    <p>WhatsApp: 0812-3456-7890</p>
+    <p>Instagram: @pisanggorengmaknyus</p>
+  </section>  <!-- Footer -->  <footer>
+    <p>&copy; 2025 Pisang Goreng Maknyus. All Rights Reserved.</p>
+  </footer>  <script>
+    function pesanSekarang() {
+      window.open('https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20pisang%20goreng!', '_blank');
+    }
+  </script></body>
+</html>
